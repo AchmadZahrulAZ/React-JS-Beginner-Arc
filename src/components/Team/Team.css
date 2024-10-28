@@ -1,0 +1,42 @@
+/* Team Section */
+.team {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.team h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h4 {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #777;
+  margin: 0;
+}

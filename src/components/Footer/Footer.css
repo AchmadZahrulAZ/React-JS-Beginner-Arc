@@ -1,0 +1,39 @@
+/* Footer Styles */
+.footer {
+  background-color: #222;
+  color: #bbb;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  max-width: 250px;
+}
+
+.footer-section h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-section p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.footer-section a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #ff9800;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #e67e00;
+}
