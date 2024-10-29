@@ -1,0 +1,45 @@
+.news-list {
+    display: flex;
+    background-color: ghostwhite;
+    min-height: 100vh;
+    /* biar ga kepinggir */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-card {
+    width: 300px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.news-card:hover {
+    background-color: whitesmoke;
+}
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-detail {
+    padding: 10px 20px;
+}
+
+.news-detail h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.news-detail p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
